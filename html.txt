@@ -1,0 +1,27 @@
+<div id="principal"> 
+  <header>
+    <h2>Atendimento on-line</h2>
+  </header>
+
+  <form method="post" action="https://postman-echo.com/post"> 
+    <div class="paragrafo_1"> 
+      <div class="professor">Professor diz:</div>
+      <p class="mensagem">Bom dia! Tudo bom?</p>
+      <div class="professor">Professor diz:</div>
+      <p class="mensagem">João Paulo, você finalizou o trabalho?</p>
+      <div class="aluno"> Aluno diz:</br>
+          <p class="mensagem">Bom dia! Tudo bem!</p>
+      </div>
+      <div class="aluno">Aluno diz:</br>
+          <p class="mensagem">Sim, Sr! O trabalho está pronto, professor!</p>
+      </div>
+    </div>
+    
+    <div class="paragrafo_2"> 
+      <div class="row-button">
+        <input type="text" id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required="required">
+        <button type="submit">Enviar</button>
+      </div> 
+    </div> 
+  </form>
+</div>

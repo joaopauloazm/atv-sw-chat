@@ -1,0 +1,112 @@
+#principal {
+  max-width: 800px;
+  min-width: 500px;
+  font-family: Arial;
+  font-size: 18px;
+  margin: 5 auto;
+  
+}
+
+header {
+  border: 2px solid #DC143C;
+  padding: 16px 21px;
+  text-align: left;
+  padding: 5px;
+  line-height: 0px;
+  background-color: #DC143C;
+  text-align: center;
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+form {
+  border: 2px solid #DC143C;
+  background-color: #FFA07A;
+  margin-bottom: 26px;
+  padding: 8px;
+  border-radius: 0px 0px 20px 20px;
+  
+}
+
+.paragrafo_1 {
+  border: 2px solid #DC143C;
+  background-color: white;
+  margin-bottom: 26px;
+  padding: 20px 15px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  line-height: 5px;
+  margin-top: -0px;
+  margin-right: -0px;
+  border-radius: 15px;
+}
+
+.paragrafo_2 {
+  
+  background-color: #FFA07A;
+  margin-bottom: 10px;
+  margin-top: -5px;
+  
+}
+
+.mensagem {
+  border: 2px solid red;
+  width: 200px;
+  background: white;
+  float: right;
+  text-align: left;
+  margin-bottom: 16px;
+  line-height: 21px;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.aluno{
+  text-align: right;
+}
+
+.row-button {
+  font-family: Arial;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.row-button [type=text] {
+border: 2px solid #DC143C;
+font-size: 16px;
+}
+
+#mensagem {
+  font-family: Arial;
+  max-width: 720px;
+  min-width: 360px;
+  width: 670px;
+  line-height: 30px;
+  border-radius: 6px;
+  
+}
+
+form button[type=submit] {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #DC143C;
+  padding: 8px 15px;
+  border-radius: 30px;
+  transition: all 0.3s;
+  border: 2px solid #DC143C;
+  font-size: 16px;
+  color: white;
+  
+}
+
+.paragrafo_1 div {
+margin-bottom: 1px;
+}
+
+form button:hover {
+  background-color: #DC143C;
+  padding: 12px 21px;
+  color: white;
+}
